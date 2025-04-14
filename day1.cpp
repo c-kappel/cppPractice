@@ -27,5 +27,5 @@ int main(){
     int* myIntArray = new int[arraySize];
     populateArray(myIntArray, arraySize);
     printArray(myIntArray, arraySize);
-    delete[] myIntArray;
+    delete[] myIntArray; //deallocate heap memory
 }
